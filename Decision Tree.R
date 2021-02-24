@@ -7,6 +7,7 @@ library(rpart.plot)
 data=read.csv("C:\\MS\\Spring 2021\\Data Visualization CAP 5738\\dataset.csv")
 
 data
+
 dim(data)
 
 smple<- sample(200,80)
