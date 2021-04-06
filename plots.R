@@ -26,3 +26,7 @@ ggplot(diamonds,aes(carat, price))+geom_point(alpha=0.1)+theme_bw()
 
 
 ggplot(diamonds,aes(carat, price))+geom_point(alpha=0.1)+facet_grid(.~ cut)+theme_bw()
+
+
+ggplot(diamonds,aes(carat, price))+geom_point(alpha=0.1)+facet_grid(cut ~ clarity)+theme_bw()
+
