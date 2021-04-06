@@ -20,3 +20,9 @@ compactCars<- mpg[mpg$class=="compact",]
 compactCars
 
 ggplot(compactCars,aes(class,hwy))+geom_boxplot()+theme_bw()
+
+
+ggplot(diamonds,aes(carat, price))+geom_point(alpha=0.1)+theme_bw()
+
+
+ggplot(diamonds,aes(carat, price))+geom_point(alpha=0.1)+facet_grid(.~ cut)+theme_bw()
