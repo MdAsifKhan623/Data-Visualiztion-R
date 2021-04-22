@@ -36,6 +36,8 @@ ggplot(dataframe,aes(x1,x2))+
   geom_point(colour="red")+
   labs(x="X Axis",y="Y Axis")+
   ggtitle("Extra Mile")+
+  theme_bw()+
   theme(plot.title = element_text(hjust = 0.5))
+ 
 
 ```
